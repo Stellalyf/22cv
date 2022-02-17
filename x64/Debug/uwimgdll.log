@@ -1,0 +1,115 @@
+﻿  flow_image.c
+F:\22wi\455\uwimgdll-main\src\flow_image.c(16,20): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+F:\22wi\455\uwimgdll-main\src\flow_image.c(17,22): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+F:\22wi\455\uwimgdll-main\src\flow_image.c(34,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+F:\22wi\455\uwimgdll-main\src\flow_image.c(36,20): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+F:\22wi\455\uwimgdll-main\src\flow_image.c(37,20): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+F:\22wi\455\uwimgdll-main\src\flow_image.c(47,7): warning C4273: “make_integral_image”: dll 链接不一致
+F:\22wi\455\uwimgdll-main\src\image.h(119,20): message : 参见“make_integral_image”的前一个定义
+F:\22wi\455\uwimgdll-main\src\flow_image.c(67,7): warning C4273: “box_filter_image”: dll 链接不一致
+F:\22wi\455\uwimgdll-main\src\image.h(120,20): message : 参见“box_filter_image”的前一个定义
+F:\22wi\455\uwimgdll-main\src\flow_image.c(98,7): warning C4273: “time_structure_matrix”: dll 链接不一致
+F:\22wi\455\uwimgdll-main\src\image.h(121,20): message : 参见“time_structure_matrix”的前一个定义
+F:\22wi\455\uwimgdll-main\src\flow_image.c(140,7): warning C4273: “velocity_image”: dll 链接不一致
+F:\22wi\455\uwimgdll-main\src\image.h(122,20): message : 参见“velocity_image”的前一个定义
+F:\22wi\455\uwimgdll-main\src\flow_image.c(170,31): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+F:\22wi\455\uwimgdll-main\src\flow_image.c(171,31): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+F:\22wi\455\uwimgdll-main\src\flow_image.c(168,24): warning C4101: “A”: 未引用的局部变量
+F:\22wi\455\uwimgdll-main\src\flow_image.c(187,6): warning C4273: “draw_flow”: dll 链接不一致
+F:\22wi\455\uwimgdll-main\src\image.h(125,19): message : 参见“draw_flow”的前一个定义
+F:\22wi\455\uwimgdll-main\src\flow_image.c(197,27): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+F:\22wi\455\uwimgdll-main\src\flow_image.c(197,30): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+F:\22wi\455\uwimgdll-main\src\flow_image.c(221,7): warning C4273: “optical_flow_images”: dll 链接不一致
+F:\22wi\455\uwimgdll-main\src\image.h(123,20): message : 参见“optical_flow_images”的前一个定义
+F:\22wi\455\uwimgdll-main\src\flow_image.c(236,6): warning C4273: “optical_flow_webcam”: dll 链接不一致
+F:\22wi\455\uwimgdll-main\src\image.h(124,19): message : 参见“optical_flow_webcam”的前一个定义
+    正在创建库 F:\22wi\455\uwimgdll-main\x64\Debug\uwimgdll.lib 和对象 F:\22wi\455\uwimgdll-main\x64\Debug\uwimgdll.exp
+LINK : warning LNK4217: 符号“free_data”(在“ data.obj”中定义)已由“classifier.obj”(函数“train_model”中)导入
+LINK : warning LNK4217: 符号“random_batch”(在“ data.obj”中定义)已由“classifier.obj”(函数“train_model”中)导入
+LINK : warning LNK4217: 符号“load_image”(在“ load_image.obj”中定义)已由“data.obj”(函数“load_classification_data”中)导入
+LINK : warning LNK4286: 符号“load_image”(在“load_image.obj”中定义)已由“test.obj”导入
+LINK : warning LNK4286: 符号“get_pixel”(在“process_image.obj”中定义)已由“resize_image.obj”导入
+LINK : warning LNK4286: 符号“get_pixel”(在“process_image.obj”中定义)已由“test.obj”导入
+LINK : warning LNK4217: 符号“get_pixel”(在“ process_image.obj”中定义)已由“filter_image.obj”(函数“add_image”中)导入
+LINK : warning LNK4217: 符号“get_pixel”(在“ process_image.obj”中定义)已由“flow_image.obj”(函数“time_structure_matrix”中)导入
+LINK : warning LNK4217: 符号“get_pixel”(在“ process_image.obj”中定义)已由“harris_image.obj”(函数“detect_and_draw_corners”中)导入
+LINK : warning LNK4286: 符号“get_pixel”(在“process_image.obj”中定义)已由“panorama_image.obj”导入
+LINK : warning LNK4286: 符号“set_pixel”(在“process_image.obj”中定义)已由“resize_image.obj”导入
+LINK : warning LNK4286: 符号“set_pixel”(在“process_image.obj”中定义)已由“test.obj”导入
+LINK : warning LNK4217: 符号“set_pixel”(在“ process_image.obj”中定义)已由“filter_image.obj”(函数“add_image”中)导入
+LINK : warning LNK4217: 符号“set_pixel”(在“ process_image.obj”中定义)已由“flow_image.obj”(函数“box_filter_image”中)导入
+LINK : warning LNK4286: 符号“set_pixel”(在“process_image.obj”中定义)已由“harris_image.obj”导入
+LINK : warning LNK4286: 符号“set_pixel”(在“process_image.obj”中定义)已由“panorama_image.obj”导入
+LINK : warning LNK4217: 符号“copy_image”(在“ process_image.obj”中定义)已由“filter_image.obj”(函数“add_image”中)导入
+LINK : warning LNK4217: 符号“copy_image”(在“ process_image.obj”中定义)已由“harris_image.obj”(函数“mark_corners”中)导入
+LINK : warning LNK4286: 符号“copy_image”(在“process_image.obj”中定义)已由“panorama_image.obj”导入
+LINK : warning LNK4286: 符号“copy_image”(在“process_image.obj”中定义)已由“test.obj”导入
+LINK : warning LNK4217: 符号“hsv_to_rgb”(在“ process_image.obj”中定义)已由“filter_image.obj”(函数“colorize_sobel”中)导入
+LINK : warning LNK4286: 符号“hsv_to_rgb”(在“process_image.obj”中定义)已由“test.obj”导入
+LINK : warning LNK4286: 符号“make_image”(在“load_image.obj”中定义)已由“process_image.obj”导入
+LINK : warning LNK4286: 符号“make_image”(在“load_image.obj”中定义)已由“resize_image.obj”导入
+LINK : warning LNK4286: 符号“make_image”(在“load_image.obj”中定义)已由“test.obj”导入
+LINK : warning LNK4217: 符号“make_image”(在“ load_image.obj”中定义)已由“filter_image.obj”(函数“colorize_sobel”中)导入
+LINK : warning LNK4217: 符号“make_image”(在“ load_image.obj”中定义)已由“flow_image.obj”(函数“optical_flow_images”中)导入
+LINK : warning LNK4286: 符号“make_image”(在“load_image.obj”中定义)已由“harris_image.obj”导入
+LINK : warning LNK4286: 符号“make_image”(在“load_image.obj”中定义)已由“panorama_image.obj”导入
+LINK : warning LNK4217: 符号“free_image”(在“ load_image.obj”中定义)已由“filter_image.obj”(函数“colorize_sobel”中)导入
+LINK : warning LNK4217: 符号“free_image”(在“ load_image.obj”中定义)已由“flow_image.obj”(函数“box_filter_image”中)导入
+LINK : warning LNK4286: 符号“free_image”(在“load_image.obj”中定义)已由“harris_image.obj”导入
+LINK : warning LNK4286: 符号“free_image”(在“load_image.obj”中定义)已由“test.obj”导入
+LINK : warning LNK4217: 符号“rgb_to_grayscale”(在“ process_image.obj”中定义)已由“flow_image.obj”(函数“time_structure_matrix”中)导入
+LINK : warning LNK4286: 符号“rgb_to_grayscale”(在“process_image.obj”中定义)已由“test.obj”导入
+LINK : warning LNK4217: 符号“sub_image”(在“ filter_image.obj”中定义)已由“flow_image.obj”(函数“time_structure_matrix”中)导入
+LINK : warning LNK4286: 符号“sub_image”(在“filter_image.obj”中定义)已由“test.obj”导入
+LINK : warning LNK4217: 符号“convolve_image”(在“ filter_image.obj”中定义)已由“flow_image.obj”(函数“time_structure_matrix”中)导入
+LINK : warning LNK4286: 符号“convolve_image”(在“filter_image.obj”中定义)已由“harris_image.obj”导入
+LINK : warning LNK4286: 符号“convolve_image”(在“filter_image.obj”中定义)已由“test.obj”导入
+LINK : warning LNK4217: 符号“make_gx_filter”(在“ filter_image.obj”中定义)已由“flow_image.obj”(函数“time_structure_matrix”中)导入
+LINK : warning LNK4217: 符号“make_gx_filter”(在“ filter_image.obj”中定义)已由“harris_image.obj”(函数“harris_corner_detector”中)导入
+LINK : warning LNK4217: 符号“make_gy_filter”(在“ filter_image.obj”中定义)已由“flow_image.obj”(函数“time_structure_matrix”中)导入
+LINK : warning LNK4217: 符号“make_gy_filter”(在“ filter_image.obj”中定义)已由“harris_image.obj”(函数“cornerness_response”中)导入
+LINK : warning LNK4217: 符号“smooth_image”(在“ harris_image.obj”中定义)已由“flow_image.obj”(函数“optical_flow_images”中)导入
+LINK : warning LNK4217: 符号“make_gaussian_filter”(在“ filter_image.obj”中定义)已由“harris_image.obj”(函数“smooth_image”中)导入
+LINK : warning LNK4286: 符号“make_gaussian_filter”(在“filter_image.obj”中定义)已由“test.obj”导入
+LINK : warning LNK4217: 符号“l1_normalize”(在“ filter_image.obj”中定义)已由“harris_image.obj”(函数“make_1d_gaussian”中)导入
+LINK : warning LNK4217: 符号“save_image”(在“ load_image.obj”中定义)已由“panorama_image.obj”(函数“panorama_image”中)导入
+LINK : warning LNK4217: 符号“bilinear_interpolate”(在“ resize_image.obj”中定义)已由“panorama_image.obj”(函数“combine_images”中)导入
+LINK : warning LNK4286: 符号“bilinear_interpolate”(在“resize_image.obj”中定义)已由“test.obj”导入
+LINK : warning LNK4217: 符号“free_descriptors”(在“ harris_image.obj”中定义)已由“panorama_image.obj”(函数“find_and_draw_matches”中)导入
+LINK : warning LNK4217: 符号“mark_corners”(在“ harris_image.obj”中定义)已由“panorama_image.obj”(函数“find_and_draw_matches”中)导入
+LINK : warning LNK4217: 符号“harris_corner_detector”(在“ harris_image.obj”中定义)已由“panorama_image.obj”(函数“find_and_draw_matches”中)导入
+LINK : warning LNK4217: 符号“rgb_to_hsv”(在“ process_image.obj”中定义)已由“test.obj”(函数“test_hsv_to_rgb”中)导入
+LINK : warning LNK4217: 符号“shift_image”(在“ process_image.obj”中定义)已由“test.obj”(函数“test_shift”中)导入
+LINK : warning LNK4217: 符号“clamp_image”(在“ process_image.obj”中定义)已由“test.obj”(函数“test_clamp”中)导入
+LINK : warning LNK4217: 符号“add_image”(在“ filter_image.obj”中定义)已由“test.obj”(函数“test_frequency_image”中)导入
+LINK : warning LNK4217: 符号“save_image_binary”(在“ load_image.obj”中定义)已由“test.obj”(函数“make_hw4_tests”中)导入
+LINK : warning LNK4217: 符号“load_image_binary”(在“ load_image.obj”中定义)已由“test.obj”(函数“test_integral_image”中)导入
+LINK : warning LNK4217: 符号“save_png”(在“ load_image.obj”中定义)已由“test.obj”(函数“make_hw4_tests”中)导入
+LINK : warning LNK4217: 符号“nn_interpolate”(在“ resize_image.obj”中定义)已由“test.obj”(函数“test_nn_interpolate”中)导入
+LINK : warning LNK4217: 符号“nn_resize”(在“ resize_image.obj”中定义)已由“test.obj”(函数“test_nn_resize”中)导入
+LINK : warning LNK4217: 符号“bilinear_resize”(在“ resize_image.obj”中定义)已由“test.obj”(函数“test_bl_resize”中)导入
+LINK : warning LNK4217: 符号“make_box_filter”(在“ filter_image.obj”中定义)已由“test.obj”(函数“test_convolution”中)导入
+LINK : warning LNK4217: 符号“make_highpass_filter”(在“ filter_image.obj”中定义)已由“test.obj”(函数“test_highpass_filter”中)导入
+LINK : warning LNK4217: 符号“make_sharpen_filter”(在“ filter_image.obj”中定义)已由“test.obj”(函数“test_sharpen_filter”中)导入
+LINK : warning LNK4217: 符号“make_emboss_filter”(在“ filter_image.obj”中定义)已由“test.obj”(函数“test_emboss_filter”中)导入
+LINK : warning LNK4217: 符号“sobel_image”(在“ filter_image.obj”中定义)已由“test.obj”(函数“test_sobel”中)导入
+LINK : warning LNK4217: 符号“make_point”(在“ panorama_image.obj”中定义)已由“test.obj”(函数“test_compute_homography”中)导入
+LINK : warning LNK4217: 符号“project_point”(在“ panorama_image.obj”中定义)已由“test.obj”(函数“test_projection”中)导入
+LINK : warning LNK4217: 符号“compute_homography”(在“ panorama_image.obj”中定义)已由“test.obj”(函数“test_compute_homography”中)导入
+LINK : warning LNK4217: 符号“structure_matrix”(在“ harris_image.obj”中定义)已由“test.obj”(函数“test_cornerness”中)导入
+LINK : warning LNK4217: 符号“cornerness_response”(在“ harris_image.obj”中定义)已由“test.obj”(函数“test_cornerness”中)导入
+LINK : warning LNK4217: 符号“make_integral_image”(在“ flow_image.obj”中定义)已由“test.obj”(函数“make_hw4_tests”中)导入
+LINK : warning LNK4217: 符号“box_filter_image”(在“ flow_image.obj”中定义)已由“test.obj”(函数“make_hw4_tests”中)导入
+LINK : warning LNK4217: 符号“time_structure_matrix”(在“ flow_image.obj”中定义)已由“test.obj”(函数“make_hw4_tests”中)导入
+LINK : warning LNK4217: 符号“velocity_image”(在“ flow_image.obj”中定义)已由“test.obj”(函数“make_hw4_tests”中)导入
+LINK : warning LNK4217: 符号“activate_matrix”(在“ classifier.obj”中定义)已由“test.obj”(函数“make_matrix_test”中)导入
+LINK : warning LNK4217: 符号“gradient_matrix”(在“ classifier.obj”中定义)已由“test.obj”(函数“make_matrix_test”中)导入
+LINK : warning LNK4217: 符号“forward_layer”(在“ classifier.obj”中定义)已由“test.obj”(函数“make_matrix_test”中)导入
+LINK : warning LNK4217: 符号“backward_layer”(在“ classifier.obj”中定义)已由“test.obj”(函数“make_matrix_test”中)导入
+LINK : warning LNK4217: 符号“update_layer”(在“ classifier.obj”中定义)已由“test.obj”(函数“make_matrix_test”中)导入
+LINK : warning LNK4217: 符号“make_layer”(在“ classifier.obj”中定义)已由“test.obj”(函数“make_matrix_test”中)导入
+LINK : warning LNK4217: 符号“load_matrix”(在“ matrix.obj”中定义)已由“test.obj”(函数“test_activate_matrix”中)导入
+LINK : warning LNK4217: 符号“save_matrix”(在“ matrix.obj”中定义)已由“test.obj”(函数“make_matrix_test”中)导入
+panorama_image.obj : error LNK2019: 无法解析的外部符号 model_inliners，函数 RANSAC 中引用了该符号
+MSVCRTD.lib(exe_winmain.obj) : error LNK2019: 无法解析的外部符号 WinMain，函数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中引用了该符号
+F:\22wi\455\uwimgdll-main\x64\Debug\uwimgdll.exe : fatal error LNK1120: 2 个无法解析的外部命令
